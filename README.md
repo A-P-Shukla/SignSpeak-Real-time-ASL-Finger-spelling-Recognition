@@ -38,3 +38,15 @@ The project is organized as follows:
         * Updating the text area with the translated text.
     * Other static assets, such as images, icons, and the site manifest.
 * **`asl_prediction/ASL_model.p`:**  The pickled machine learning model file.  The current implementation uses a Random Forest.  This is a *placeholder* and **must be replaced** with your trained deep learning model.  Adapt the loading and prediction parts of `application.py` and `realtime_detection.py` to use your specific model format.
+## Installation
+
+These steps will guide you through setting up and running the SignSpeak application.  We highly recommend using a virtual environment to manage project dependencies.
+
+**1. Clone the repository:**`https://github.com/A-P-Shukla/SignSpeak-Real-time-ASL-Finger-spelling-Recognition.git`
+**2. Set up and activate a virtual environment:**`python3 -m venv .venv          # Creates the virtual environment
+source .venv/bin/activate     # Activates (Linux/macOS)
+.venv\Scripts\activate       # Activates (Windows)`
+**3. Install project dependencies:**`pip install -r requirements.txt`
+
+##Contributing
+* Contributions are welcome! Open an issue to discuss ideas or submit a pull request.
