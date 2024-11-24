@@ -44,6 +44,7 @@ These steps will guide you through setting up and running the SignSpeak applicat
 
 **1. Clone the repository:**
 `https://github.com/A-P-Shukla/SignSpeak-Real-time-ASL-Finger-spelling-Recognition.git`
+
 **2. Set up and activate a virtual environment:**
 * `python3 -m venv .venv`
 * `.venv/bin/activate  # Activates (Linux/macOS) `  
