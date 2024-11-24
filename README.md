@@ -43,10 +43,10 @@ The project is organized as follows:
 These steps will guide you through setting up and running the SignSpeak application.  We highly recommend using a virtual environment to manage project dependencies.
 
 **1. Clone the repository:**`https://github.com/A-P-Shukla/SignSpeak-Real-time-ASL-Finger-spelling-Recognition.git`
-**2. Set up and activate a virtual environment:**python3 -m venv .venv          
-# Creates the virtual environment
-source .venv/bin/activate     # Activates (Linux/macOS)
-.venv\Scripts\activate       # Activates (Windows)
+**2. Set up and activate a virtual environment:**
+* python3 -m venv .venv
+* .venv/bin/activate     # Activates (Linux/macOS)
+* .venv\Scripts\activate       # Activates (Windows)
 **3. Install project dependencies:**`pip install -r requirements.txt`
 
 ## Contributing to the repo
