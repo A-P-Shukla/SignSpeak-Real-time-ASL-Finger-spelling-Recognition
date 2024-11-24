@@ -47,10 +47,10 @@ These steps will guide you through setting up and running the SignSpeak applicat
 **2. Set up and activate a virtual environment:**
 * `python3 -m venv .venv`
 * `.venv/bin/activate  # Activates (Linux/macOS) `  
-* .`venv\Scripts\activate # Activates (Windows)`      
+* `.venv\Scripts\activate # Activates (Windows)`      
   
 **3. Install project dependencies:**
-pip install -r requirements.txt
+* `pip install -r requirements.txt`
 
 ## Contributing to the repo
 * Contributions are welcome! Open an issue to discuss ideas or submit a pull request.
