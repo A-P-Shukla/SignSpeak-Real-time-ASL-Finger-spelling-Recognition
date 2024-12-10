@@ -1,0 +1,77 @@
+/* Add some basic styling for the camera feed box */
+/* Add this if using Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+body {
+    background-color: #f8f9fa;
+    font-family: sans-serif;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+#p {
+    background-color: #ffc107;
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#link1, #link2 { 
+    text-decoration: none;
+    color: #343a40;
+    margin: 0 15px;
+}
+
+#link2 { 
+    margin-left: auto; 
+}
+
+#tp {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prediction-result {
+    font-size: 20px;
+    border: 2px solid #ccc;
+    display: inline-block; /* Or block if you want it on a new line */
+    text-align: center;     /* Optional: Align text within the textarea */
+    padding: 5px;
+    width: 400px; 
+    height: 200px;
+}
+
+
+footer {
+    background-color: #ffc107;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    margin: 0 20px;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
